@@ -1,0 +1,134 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background: #010120;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #010120 100%);
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 100%;
+}
+
+.card {
+    height:100%;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+#card-1 {
+    transform: translateX(-16px);
+    min-width: 960px;
+}
+
+#card-2 {
+    transform: translateX(-52px);
+    min-width: 960px;
+}
+
+#card-3 {
+    transform: translateX(-68px);
+    min-width: 960px;
+}
+
+#card-spacer-2 {
+    transform: translateX(-90px);
+}
+
+.background-0{
+    z-index: 0;
+}
+
+.background-10 {
+    z-index: 10;
+}
+
+.foreground-scene {
+    z-index: 1000;
+}
+
+.card-spacer {
+    width: 10%;
+    min-width: 180px;
+    height: 100%;
+    background: #1F1F1F;
+    display: inline-block;
+    position: relative;
+    transform: translateX(-35px);
+}
+
+.card-spacer .bin-1 {
+    left: auto;
+    right: 40%;
+    top: 43%;
+}
+
+.side-street {
+    transform: skewY(40deg);
+    height: 60%;
+    border-bottom: 4px solid #293935;
+    border-right: 30px solid #28403F;
+    width: 97%;
+    position: absolute;
+    top: -75px;
+    right: 0;
+}
+
+.door-frame {
+    width: 30%;
+    height: 50%;
+    border: 3px solid black;
+    border-bottom: 8px solid black;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    margin-left: -30%;
+}
+
+.door-frame:after {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: -14px;
+    left: -10px;
+    right: 20px;
+    bottom: -13px;
+    border: 7px solid #345D5F;
+    border-top: 10px solid #345D5F;
+    border-right: 3px solid #345D5F;
+    width: 110%;
+    margin: auto;
+    border-radius: 1px;
+}
+
+.side-door-light-strip {
+    width: 30%;
+    height: 4px;
+    position: absolute;
+    bottom: 58%;
+    left: 76%;
+    margin-left: -30%;
+    background: #C4CF87;
+    border-bottom: 2px solid #534E3B;
+}
+
+.door {
+    width: 100%;
+    margin: auto;
+    height: 98%;
+    background: #283F41;
+}
+
+.card-spacer .bin {
+    right:0;
+    top: 40%;
+}

@@ -1,0 +1,38 @@
+#card-3 .glass-wall {
+    width: 33%;
+    transform: translateX(0px);
+}
+
+#card-3 .lamp-post-1 {
+    left: 30%;
+}
+
+#card-3 .lamp-post-2 {
+    left:80%;
+}
+
+#card-3 .brick-wall {
+    width: 24%;
+}
+
+#card-3 .fruit-sign-1 {
+    left:50%;
+}
+
+.grated-door-wrapper {
+    width: 20%;
+    height: 98%;
+    background: #2D6A1B;
+    display: inline-block;
+    border: 4px solid #212420;
+    transform: translateX(-25px);
+}
+
+.grated-door {
+    background-color: #2D6A1B;
+    background-image:linear-gradient(#61CB53 .1em, #273225 .6em, #2D6A1B .3em);
+    background-size: 100% 1.2em;
+    width:94%;
+    margin: auto;
+    height: 98%;
+}

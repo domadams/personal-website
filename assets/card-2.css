@@ -1,0 +1,57 @@
+.fire-hydrant-1 {
+    left: 46%;
+}
+
+.bin-1 {
+    left: 30%;
+}
+
+.sub-station-1 {
+    left:67%;
+}
+
+#card-2 .lamp-post-1 {
+    left:30%;
+}
+
+#card-2 .lamp-post-2 {
+    left:70%;
+}
+
+.brick-wall-2 {
+    transform: translateX(-52px);
+    width: 32%;
+}
+
+.london-background {
+    width: 99%;
+    height: auto;
+    text-align: center;
+    z-index: -1;
+}
+
+.skill-text {
+    font-size: 12px;
+    position: absolute;
+    color: #DD91E9;
+    left: 30px;
+}
+
+.skill-text-1 {
+    top: 8px;
+}
+
+.skill-text-2 {
+    top: 30px;
+}
+
+.skill-text-3 {
+    top: 52px;
+}
+
+.skills-background {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: -1;
+}
