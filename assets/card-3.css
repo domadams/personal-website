@@ -1,6 +1,6 @@
 #card-3 .glass-wall {
     width: 33%;
-    transform: translateX(0px);
+    transform: translateX(7px);
 }
 
 #card-3 .lamp-post-1 {
@@ -35,4 +35,9 @@
     width:94%;
     margin: auto;
     height: 98%;
+}
+
+.jl-background {
+    height: auto;
+    width: 100%;
 }

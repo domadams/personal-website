@@ -132,3 +132,72 @@ body, html {
     right:0;
     top: 40%;
 }
+
+
+.lamp-post.lamp-post-1 {
+    left:26%;
+}
+
+.lamp-post.lamp-post-2 {
+    left:46%;
+}
+
+.lamp-post.lamp-post-3 {
+    left:76%;
+}
+
+.lamp-post.lamp-post-4 {
+    left:86%;
+}
+
+.lamp-post.lamp-post-5 {
+    left:100%;
+}
+
+.sign-post.sign-post-1 {
+    left: 56%;
+}
+
+.sign-post.sign-post-2 {
+    left: 92%;
+}
+
+.character-wrapper {
+    width: 400%;
+    height: 100%;
+}
+
+.bg-Axel {
+    z-index: 10;
+    position: relative;
+    bottom: 400px;
+    left: 27%;
+}
+
+.bg-axel-fixed {
+    z-index: 10;
+    position: absolute;
+    bottom: 70px;
+    left: 200px;
+}
+
+.bg-AxelWalk {
+    width: 148px;
+    height: 317px;
+    background: url(images/axelSprite.png) -18px 320px;
+    background-size: 300px;
+}
+
+.bg-AxelStand {
+    width: 129px;
+    height: 317px;
+    background: url(images/axelSprite.png) -182px 0;
+    background-size: 300px;
+}
+
+.bg-AxelWalk2 {
+    width: 164px;
+    height: 317px;
+    background: url(images/axelSprite.png) -314px 0;
+    background-size: 300px;
+}

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/card-3.css">
 </head>
 <body>
-    <div class="scrolling-wrapper">
+    <div id="scrolling-wrapper" class="scrolling-wrapper">
         <div class='stars'></div>
         <div class="card">
             <div class="foreground-scene">
@@ -114,8 +114,6 @@
                 <div class="bricks"></div>
             </div>
             <div class="bin bin-1"></div>
-            <div class="lamp-post lamp-post-1"></div>
-            <div class="lamp-post lamp-post-2"></div>
             <div class="sub-station sub-station-1"></div>
         </div>
         <div class="card-spacer">
@@ -207,8 +205,6 @@
                 <div class="bricks"></div>
             </div>
             <div class="fruit-sign bin-1"></div>
-            <div class="sign-post"></div>
-            <div class="lamp-post lamp-post-2"></div>
             <div class="sub-station sub-station-1"></div>
         </div>
         <div class="card" id="card-3">
@@ -234,6 +230,7 @@
             <div class="shop-front-wall">
                 <div class="window-frame"></div>
                 <div class="glass-wall">
+                    <img class="jl-background" src="assets/images/pixel-jl.png" height="432" width="1602"/>
                     <div class="glass-pane"></div>
                 </div>
                 <div class="brick-wall">
@@ -243,7 +240,15 @@
                     </div>
                     <div class="brick-wall-middle-wrapper">
                         <div class="brick-wall-skew"></div>
-                        <div class="brick-wall-middle"></div>
+                        <div class="brick-wall-middle">
+                            <div class="sign sign-wide">
+                                <div class="border-neon border-neon-left light-fill-blue"></div>
+                                <span class="skill-text skill-text-1">John Lewis</span>
+                                <span class="skill-text skill-text-2">Partnership</span>
+                                <span class="skill-text skill-text-3">2008-2013</span>
+                                <div class="border-neon border-neon-right light-fill-blue"></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="brick-wall-top-bottom-wrapper">
                         <div class="brick-wall-skew"></div>
@@ -277,9 +282,6 @@
             </div>
             <div class="sub-station"></div>
             <div class="fruit-sign fruit-sign-1"></div>
-            <div class="lamp-post lamp-post-1"></div>
-            <div class="lamp-post lamp-post-2"></div>
-            <div class="sign-post sub-station-1"></div>
         </div>
         <div class="card-spacer" id="card-spacer-2">
             <div class="side-street">
@@ -293,13 +295,17 @@
             </div>
             <div class="bin-blue bin-1"></div>
         </div>
-        <!--<div class="card"><h2>Card</h2></div>-->
-        <!--<div class="card"><h2>Card</h2></div>-->
-        <!--<div class="card"><h2>Card</h2></div>-->
-        <!--<div class="card"><h2>Card</h2></div>-->
-        <!--<div class="card"><h2>Card</h2></div>-->
-        <!--<div class="card"><h2>Card</h2></div>-->
-        <!--<div class="card"><h2>Card</h2></div>-->
+        <div class="character-wrapper">
+            <div class="lamp-post lamp-post-1"></div>
+            <div class="lamp-post lamp-post-2"></div>
+            <div class="sign-post sign-post-1"></div>
+            <div class="lamp-post lamp-post-3"></div>
+            <div class="lamp-post lamp-post-4"></div>
+            <div class="lamp-post lamp-post-5"></div>
+            <div class="sign-post sign-post-2"></div>
+            <div id="axel" class="bg-Axel bg-AxelStand"></div>
+        </div>
     </div>
+    <script src="assets/scripts/axelWalk.js"></script>
 </body>
 </html>
