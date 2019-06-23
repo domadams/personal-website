@@ -35,12 +35,31 @@ body, html {
 }
 
 #card-3 {
-    transform: translateX(-68px);
+    transform: translateX(-76px);
+    min-width: 960px;
+}
+
+#card-4 {
+    transform: translateX(-108px);
+    min-width: 960px;
+}
+
+#card-5 {
+    transform: translateX(-132px);
+    min-width: 960px;
+}
+
+#card-6 {
+    transform: translateX(-164px);
     min-width: 960px;
 }
 
 #card-spacer-2 {
-    transform: translateX(-90px);
+    transform: translateX(-92px);
+}
+
+#card-spacer-3 {
+    transform: translateX(-148px);
 }
 
 .background-0{
@@ -76,7 +95,7 @@ body, html {
     height: 60%;
     border-bottom: 4px solid #293935;
     border-right: 30px solid #28403F;
-    width: 97%;
+    width: 84%;
     position: absolute;
     top: -75px;
     right: 0;
@@ -151,7 +170,16 @@ body, html {
 }
 
 .lamp-post.lamp-post-5 {
-    left:100%;
+    left:110%;
+}
+
+.lamp-post.lamp-post-6 {
+    left:130%;
+}
+
+
+.lamp-post.lamp-post-7 {
+    left:150%;
 }
 
 .sign-post.sign-post-1 {
@@ -160,6 +188,10 @@ body, html {
 
 .sign-post.sign-post-2 {
     left: 92%;
+}
+
+.sign-post.sign-post-3 {
+    left: 108%;
 }
 
 .character-wrapper {

@@ -1,0 +1,25 @@
+#card-4 .glass-wall {
+    width: 33%;
+    transform: translateX(-14px);
+}
+
+#card-4 .brick-wall {
+    width: 24%;
+}
+
+#card-4 .fruit-sign-1 {
+    left:56%;
+}
+
+#card-4 .sub-station {
+    left:22%;
+}
+
+#card-4 .bin-1 {
+    left:78%;
+}
+
+.nap-background {
+    height: auto;
+    width: 100%;
+}
